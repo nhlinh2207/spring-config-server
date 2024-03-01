@@ -6,3 +6,7 @@ eureka:
       register-with-eureka: true
       service-url:
         defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
+        
+spring:
+  zipkin:
+    base-url: http://192.168.25.128:9411
